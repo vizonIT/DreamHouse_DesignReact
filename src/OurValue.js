@@ -15,9 +15,9 @@ const OurValue = () => {
         </h2>
         <div className="completion">
           <img src={icon1} alt="icon" />
-          <div className='value1Texts'>
-            <h4>100% guaranteed project completion</h4>
-            <p>Build safe, comfortable and <br />
+          <div className='valueTexts'>
+            <h4 className='txtTitle'>100% guaranteed project completion</h4>
+            <p className='txt'>Build safe, comfortable and <br />
               transparent with a project management <br />
               application with a joint account.
             </p>
@@ -25,9 +25,9 @@ const OurValue = () => {
         </div>
         <div className="trueCost">
           <img src={icon2} alt="icon" />
-          <div className='value2Texts'>
-            <h4>No additional fees</h4>
-            <p>There are no hidden costs. The value <br />
+          <div className='valueTexts'>
+            <h4 className='txtTitle'>No additional fees</h4>
+            <p className='txt'>There are no hidden costs. The value <br />
               of the offer you get is the value <br />
               you paid.
             </p>
@@ -35,9 +35,9 @@ const OurValue = () => {
         </div>
         <div className="monitoring">
           <img src={icon3} alt="icon" />
-          <div className='value3Texts'>
-            <h4>Get escort from the Team</h4>
-            <p>Monitor reports from the Arsitag team <br />
+          <div className='valueTexts'>
+            <h4 className='txtTitle'>Get escort from the Team</h4>
+            <p className='txt'>Monitor reports from the Arsitag team <br />
               who check directly in the field.
             </p>
           </div>
