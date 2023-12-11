@@ -5,6 +5,8 @@ import './App.css';
 import Hero from './Hero.js';
 import arrowLeft from './arrowLeft.svg'
 import arrowRight from './arrowRight.svg'
+import SampleImgs from './SampleImgs.js'
+import OurValue from './OurValue.js'
 
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
           <img className='leftarrow' src={arrowLeft} alt="arrow left" />
         </div>
       </div>
+      <SampleImgs />
+      <OurValue />
 
     </div>
   );
