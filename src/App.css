@@ -1,0 +1,111 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 50px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+  gap: 8px;
+}
+
+.links p {
+  color: #2C2C2C;
+  width: 110px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 10px
+}
+
+.btn1,
+.btn2 {
+  padding: 8px 20px;
+  border-radius: 4px;
+  border: none;
+}
+
+.btn1 {
+  background-color: #FFFFFF;
+}
+
+.btn2 {
+  background-color: #FD665E;
+  color: #FFFFFF;
+}
+
+.title {
+  color: #000000;
+  font-size: 50px;
+  width: 800px;
+  line-height: 46px;
+  font-weight: 700;
+  margin: 20px 50px;
+}
+
+.orange {
+  color: #FD665E;
+}
+
+.heroContainer {
+  margin: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heroLeft p {
+  margin: 0 0;
+  color: #000000;
+  font-size: 16px;
+
+}
+
+.heroLeft button {
+  margin-top: 30px;
+  background-color: #FD665E;
+  color: #FFFFFF;
+  padding: 8px 32px;
+  border: none;
+  border-radius: 4px;
+}
+
+.heroImage img {
+  width: 500px;
+  height: 280px;
+}
+
+.swipe {
+  margin: 10px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.valueText {
+  color: #000000;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.swipebtns {
+  align-self: last baseline;
+}
+
+.leftarrow,
+.rightarrow {
+  background-color: #00000008;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+.rightarrow {
+  margin-right: 10px;
+}
