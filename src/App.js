@@ -7,6 +7,7 @@ import arrowLeft from './arrowLeft.svg'
 import arrowRight from './arrowRight.svg'
 import SampleImgs from './SampleImgs.js'
 import OurValue from './OurValue.js'
+import Testimonial from './Testimonial.js'
 
 
 function App() {
@@ -33,12 +34,7 @@ function App() {
         </button>
       </div>
       <h2 style={{ margin: '30px 70px', }}>Sound Too Good <br /> To Be True?</h2>
-      <div className="testimonial">
-        <div className="testimony">
-
-        </div>
-
-      </div>
+      <Testimonial />
 
 
 
