@@ -39,6 +39,7 @@ function App() {
       <Testimonial />
       <DreamBuild />
       <MyPartners />
+      <hr style={{ size: '2px solid', margin: '20px 0' }} />
 
 
 
