@@ -59,8 +59,7 @@
   color: #FD665E;
 }
 
-.heroContainer,
-.testimonial {
+.heroContainer {
   margin: 20px 50px;
   display: flex;
   justify-content: space-between;
@@ -173,8 +172,10 @@
 }
 
 .testimonial {
+  margin: 10px 80px;
+  display: flex;
   justify-content: right;
-  gap: 48px;
+  gap: 40px;
 }
 
 .testimony {
@@ -199,4 +200,63 @@
 .lowerBar {
   display: flex;
   justify-content: space-between;
+}
+
+.dreamProject {
+  margin: 40px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgBuild {
+  position: relative;
+}
+
+.cloudLft {
+  position: absolute;
+  top: 73px;
+  left: -78px;
+}
+
+.cloudRgt {
+  position: absolute;
+  top: 220px;
+  right: -21px;
+}
+
+.dreamTxt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.dreamTxt h2 {
+  font-size: 30px;
+  line-height: 30px;
+  width: 258px;
+  height: auto;
+}
+
+.dreamTxt h2 span {
+  color: #FD665E;
+}
+
+.partnersWrap {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 50px;
+  gap: 15px;
+}
+
+.PrtnersList {
+  display: flex;
+  justify-content: space-between;
+}
+
+.partner {
+  color: #363535;
+  width: 60px;
+  height: auto;
 }

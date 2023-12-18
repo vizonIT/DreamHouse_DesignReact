@@ -8,6 +8,8 @@ import arrowRight from './arrowRight.svg'
 import SampleImgs from './SampleImgs.js'
 import OurValue from './OurValue.js'
 import Testimonial from './Testimonial.js'
+import DreamBuild from './DreamBuild.js'
+import MyPartners from './MyPartners.js'
 
 
 function App() {
@@ -29,12 +31,14 @@ function App() {
       <SampleImgs />
       <OurValue />
       <div style={{ display: 'flex', justifyContent: 'center', alignItem: 'center' }}>
-        <button style={{ backgroundColor: '#FD665E', borderRadius: '4px', color: '#FFFFFF', border: 'none', padding: '10px 32px' }}>
+        <button style={{ backgroundColor: '#FD665E', borderRadius: '4px', color: '#FFFFFF', border: 'none', padding: '10px 32px', marginBottom: '50px' }}>
           Free Consultation
         </button>
       </div>
-      <h2 style={{ margin: '30px 70px', }}>Sound Too Good <br /> To Be True?</h2>
+      <h2 style={{ margin: '30px 70px', marginLeft: '80px' }}>Sound Too Good <br /> To Be True?</h2>
       <Testimonial />
+      <DreamBuild />
+      <MyPartners />
 
 
 
