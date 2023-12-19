@@ -52,7 +52,7 @@
   width: 800px;
   line-height: 46px;
   font-weight: 700;
-  margin: 20px 50px;
+  margin: 60px 50px;
 }
 
 .orange {
@@ -60,15 +60,16 @@
 }
 
 .heroContainer {
-  margin: 20px 50px;
+  margin: 40px 80px;
   display: flex;
   justify-content: space-between;
 }
 
 .heroLeft p {
   color: #000000;
-  font-size: 16px;
-
+  font-size: 17px;
+  line-height: 26px;
+  word-spacing: 4px;
 }
 
 .heroLeft button {
@@ -123,7 +124,7 @@
 .img2,
 .img3,
 .img4 {
-  width: 180px;
+  width: 210px;
   height: 257px;
 }
 
@@ -205,7 +206,8 @@
 .dreamProject {
   margin: 40px 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  gap:
 }
 
 .imgBuild {
@@ -256,7 +258,124 @@
 }
 
 .partner {
-  color: #363535;
-  width: 60px;
+  opacity: 0.5;
+  width: 58px;
   height: auto;
+}
+
+.footerWrap {
+  margin: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftList {
+  display: flex;
+  justify-content: center;
+  gap: 29px;
+  font-size: 12px;
+  color: #2C2C2C;
+}
+
+@media screen and (max-width:920px) {
+
+
+  .img4 {
+    visibility: hidden;
+    /* opacity: 0.4; */
+  }
+
+  .sampleImages {
+    margin: 20px 50px;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  .leftList {
+    font-size: 14px;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width:845px) {
+
+  .navContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .heroContainer {
+    /* margin: 40px 80px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .titleWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swipe,
+  .sampleImages,
+  .ourValue,
+  .dreamProject,
+  .partnersWrap,
+  .leftList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .img4 {
+    visibility: visible;
+  }
+
+  .img1,
+  .img2,
+  .img3,
+  .img4 {
+    width: 450px;
+    min-height: 150px;
+  }
+
+  .PrtnersList {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* align-items: center; */
+
+    gap: 35px;
+  }
+
+  .partner {
+    width: 70px;
+    /* height: auto; */
+  }
+
+  .footerWrap {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+  }
+
+  .leftList h5 {
+    font-size: medium;
+  }
+
+  .logo2 {
+    margin: 30px 0;
+  }
+
+  .logo {
+    width: 90px;
+  }
+
 }

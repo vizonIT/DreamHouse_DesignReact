@@ -10,6 +10,7 @@ import OurValue from './OurValue.js'
 import Testimonial from './Testimonial.js'
 import DreamBuild from './DreamBuild.js'
 import MyPartners from './MyPartners.js'
+import Footer from './Footer.js'
 
 
 function App() {
@@ -35,11 +36,12 @@ function App() {
           Free Consultation
         </button>
       </div>
-      <h2 style={{ margin: '30px 70px', marginLeft: '80px' }}>Sound Too Good <br /> To Be True?</h2>
+      <h2 style={{ margin: '30px 70px', marginLeft: '110px' }}>Sound Too Good <br /> To Be True?</h2>
       <Testimonial />
       <DreamBuild />
       <MyPartners />
-      <hr style={{ size: '2px solid', margin: '20px 0' }} />
+      <hr style={{ size: '2px solid', margin: '30px 0', opacity: '0.4' }} />
+      <Footer />
 
 
 

@@ -4,8 +4,8 @@ const Hero = () => {
   return (
     <div className="heroContainer">
       <div className="heroLeft">
-        <p>100% guaranteed build safe,
-          comfortable and transparent with a
+        <p>100% guaranteed build safe, <br />
+          comfortable and transparent with a <br />
           project management for the best result
         </p>
         <button>Free Consultation</button>
